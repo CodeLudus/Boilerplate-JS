@@ -4,6 +4,9 @@
   "description": "Este repositorio es tu punto de partida ideal para proyectos basados en JavaScript puro (Vanilla JS). Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
   "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,6 @@
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
+    "vite": "^5.3.3"
   }
 }
