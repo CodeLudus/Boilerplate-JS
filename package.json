@@ -1,0 +1,25 @@
+{
+  "name": "boilerplate-js",
+  "version": "1.0.0",
+  "description": "Este repositorio es tu punto de partida ideal para proyectos basados en JavaScript puro (Vanilla JS). Está equipado con herramientas modernas para optimizar y mejorar tu experiencia de desarrollo.",
+  "type": "module",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLudus/Boilerplate-JS.git"
+  },
+  "keywords": [
+    "JS"
+  ],
+  "author": "CodeLudus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeLudus/Boilerplate-JS/issues"
+  },
+  "homepage": "https://github.com/CodeLudus/Boilerplate-JS#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
