@@ -25,6 +25,8 @@
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "vite": "^5.3.3"
   }
 }
