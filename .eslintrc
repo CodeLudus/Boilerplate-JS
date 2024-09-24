@@ -10,6 +10,14 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-console": "warn"
+    "no-console": "warn",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.config.js" // Permite las dependencias de desarrollo en el archivos de configuración como vite.config.js, webpack.config.js, etc.
+        ]
+      }
+    ]
   }
 }
