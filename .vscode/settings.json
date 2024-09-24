@@ -1,0 +1,38 @@
+{
+  // Enable text wrapping in the editor
+  "editor.wordWrap": "on",
+
+  // Set the end of line (EOL) character to LF
+  "files.eol": "\n",
+
+  // Set tab size to 2 spaces
+  "editor.tabSize": 2,
+
+  // Show the hidden .git directory
+  "files.exclude": {
+    "**/.git": false
+  },
+
+  // Automatically auto-import modules
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  // Update imports when moving files
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Automatically close tags in HTML, JS, and TS
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+
+  // Colorize brackets with different colors
+  "editor.bracketPairColorization.enabled": true,
+
+  // Colorize indentation
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "workbench.colorCustomizations": {
+    "editorIndentGuide.activeBackground1": "#FFA500"
+  }
+}
